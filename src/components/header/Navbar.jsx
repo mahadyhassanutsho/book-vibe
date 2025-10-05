@@ -1,11 +1,13 @@
+import { NavLink } from "react-router";
+
 export default function Navbar() {
   const links = (
     <>
       <li>
-        <a>Item 1</a>
+        <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <a>Item 3</a>
+        <NavLink to="/about">About</NavLink>
       </li>
     </>
   );
@@ -22,13 +24,12 @@ export default function Navbar() {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              {" "}
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
-              />{" "}
+              />
             </svg>
           </div>
           <ul
