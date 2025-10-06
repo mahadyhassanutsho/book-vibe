@@ -1,16 +1,21 @@
 import { NavLink } from "react-router";
 
+import themes from "../../data/theme";
+import useTheme from "../../contexts/theme/useTheme";
+
+const links = (
+  <>
+    <li>
+      <NavLink to="/">Home</NavLink>
+    </li>
+    <li>
+      <NavLink to="/about">About</NavLink>
+    </li>
+  </>
+);
+
 export default function Navbar() {
-  const links = (
-    <>
-      <li>
-        <NavLink to="/">Home</NavLink>
-      </li>
-      <li>
-        <NavLink to="/about">About</NavLink>
-      </li>
-    </>
-  );
+  const { theme, setTheme } = useTheme();
 
   return (
     <div className="navbar bg-base-100 shadow-sm">
@@ -45,7 +50,27 @@ export default function Navbar() {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <div className="dropdown dropdown-left">
+          <div tabIndex={0} role="button" className="btn m-1">
+            {theme.charAt(0).toUpperCase() + theme.slice(1, theme.length)}
+          </div>
+          <ul
+            tabIndex={0}
+            className="dropdown-content menu bg-base-100 rounded-box z-1 w-fit p-2 shadow-sm space-y-2"
+          >
+            {themes.map((theme, i) => (
+              <li key={i}>
+                <button
+                  data-theme={theme}
+                  onClick={(e) => setTheme(e.currentTarget.dataset.theme)}
+                  className="btn"
+                >
+                  {theme.charAt(0).toUpperCase() + theme.slice(1, theme.length)}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

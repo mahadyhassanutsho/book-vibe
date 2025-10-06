@@ -1,10 +1,10 @@
 [
   {
-    "id": 1,
+    "id": "gatsby-goat",
     "name": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
     "image": "https://i.ibb.co.com/khHN7Pk/9780143454212.jpg",
-    "review": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+    "review": "A lit dive into the Roaring Twenties. Gatsby throws the wildest parties, but deep down it’s all about chasing lost love. Fitzgerald flexes with poetic vibes that still hit hard today. Classic gem.",
     "totalPages": 192,
     "rating": 4.5,
     "category": "Classic",
@@ -13,11 +13,11 @@
     "yearOfPublishing": 1925
   },
   {
-    "id": 2,
+    "id": "mockingbird-og",
     "name": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "image": "https://i.ibb.co.com/0cv102J/To-Kill-a-Mockingbird.webp",
-    "review": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+    "review": "Not just a book, it’s a life lesson wrapped in Southern drama. Atticus is the ultimate moral compass, Scout keeps it real, and the story slaps with truth about justice and empathy.",
     "totalPages": 281,
     "rating": 4.8,
     "category": "Fiction",
@@ -26,11 +26,11 @@
     "yearOfPublishing": 1960
   },
   {
-    "id": 3,
+    "id": "bigbro-1984",
     "name": "1984",
     "author": "George Orwell",
     "image": "https://i.ibb.co.com/MprDyVt/51-BIA4rrae-L-AC-UF1000-1000-QL80.jpg",
-    "review": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+    "review": "Straight-up dystopian chills. Orwell’s vision of Big Brother, thought police, and zero privacy is both wild and way too real. A book that makes you side-eye your Wi-Fi router.",
     "totalPages": 328,
     "rating": 4.6,
     "category": "Fiction",
@@ -39,11 +39,11 @@
     "yearOfPublishing": 1949
   },
   {
-    "id": 4,
+    "id": "holden-vibes",
     "name": "The Catcher in the Rye",
     "author": "J.D. Salinger",
     "image": "https://i.ibb.co.com/tYSWRfG/catcherrye-edited-1-800x.png",
-    "review": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+    "review": "Teen angst level: legendary. Holden Caulfield drags you through New York while hating on phonies. If you’ve ever felt lost, this book will feel like your moody bestie.",
     "totalPages": 224,
     "rating": 4.3,
     "category": "Fiction",
@@ -52,11 +52,11 @@
     "yearOfPublishing": 1951
   },
   {
-    "id": 5,
+    "id": "austen-queen",
     "name": "Pride and Prejudice",
     "author": "Jane Austen",
     "image": "https://i.ibb.co.com/YdQDMpn/81me-ud-V63-L-AC-UF1000-1000-QL80.jpg",
-    "review": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+    "review": "Romance, sass, and sharp clapbacks from 1813. Elizabeth Bennet is a savage in lace, Mr. Darcy is peak brooding energy, and Austen proves wit never goes out of style.",
     "totalPages": 279,
     "rating": 4.7,
     "category": "Classic",
@@ -65,11 +65,11 @@
     "yearOfPublishing": 1813
   },
   {
-    "id": 6,
+    "id": "hobbit-vibes",
     "name": "The Hobbit",
     "author": "J.R.R. Tolkien",
     "image": "https://i.ibb.co.com/xS8YvxL/81m-CE-uclx-L-UF1000-1000-QL80.jpg",
-    "review": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+    "review": "A cozy start to Middle-earth madness. Bilbo just wants snacks and naps but ends up in an epic quest. Dragons, dwarves, and Tolkien’s worldbuilding = chef’s kiss.",
     "totalPages": 310,
     "rating": 4.9,
     "category": "Fantasy",
@@ -78,11 +78,11 @@
     "yearOfPublishing": 1937
   },
   {
-    "id": 7,
+    "id": "hp-day1",
     "name": "Harry Potter and the Sorcerer's Stone",
     "author": "J.K. Rowling",
     "image": "https://i.ibb.co.com/989qMRW/42844155.jpg",
-    "review": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+    "review": "The OG magical starter pack. Wands, owls, Quidditch — pure wizard vibes. The world-building is so good it’ll have you checking the mail for your Hogwarts letter.",
     "totalPages": 309,
     "rating": 4.8,
     "category": "Fantasy",
@@ -91,11 +91,11 @@
     "yearOfPublishing": 1997
   },
   {
-    "id": 8,
+    "id": "alch-seeker",
     "name": "The Alchemist",
     "author": "Paulo Coelho",
     "image": "https://i.ibb.co.com/zS9jsdK/18144590.jpg",
-    "review": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+    "review": "Spiritual glow-up in paperback. Santiago’s journey is all about chasing dreams, finding meaning, and vibing with the universe. Simple but deep — a soul snack.",
     "totalPages": 177,
     "rating": 4.6,
     "category": "Fiction",
@@ -104,11 +104,11 @@
     "yearOfPublishing": 1988
   },
   {
-    "id": 9,
+    "id": "train-plot",
     "name": "The Girl on the Train",
     "author": "Paula Hawkins",
     "image": "https://i.ibb.co.com/P6hfCmJ/Whats-App-Image-2024-05-22-at-11-21-25-2e21ae46.jpg",
-    "review": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+    "review": "Dark, twisty, and messy AF. An unreliable narrator plus secrets on secrets make this thriller impossible to put down. Feels like eavesdropping on drama through a foggy window.",
     "totalPages": 316,
     "rating": 4.2,
     "category": "Mystery",
