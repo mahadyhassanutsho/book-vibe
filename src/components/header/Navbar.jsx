@@ -9,7 +9,7 @@ const links = (
       <NavLink to="/">Home</NavLink>
     </li>
     <li>
-      <NavLink to="/about">About</NavLink>
+      <NavLink to="/lists">Lists</NavLink>
     </li>
   </>
 );

@@ -10,8 +10,6 @@ const initialState = {
   wishlist: JSON.parse(localStorage.getItem("wishlist")) || [],
 };
 
-console.log(initialState);
-
 const reducer = (state, action) => {
   switch (action.type) {
     case ADD_TO_READLIST:
