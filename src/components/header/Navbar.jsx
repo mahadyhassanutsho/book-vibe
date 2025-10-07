@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 
-import themes from "../../data/theme";
+import { themes } from "../../data/theme";
 import useTheme from "../../contexts/theme/useTheme";
 
 const links = (
@@ -58,7 +58,7 @@ export default function Navbar() {
             tabIndex={0}
             className="dropdown-content menu bg-base-100 rounded-box z-1 w-fit p-2 shadow-sm space-y-2"
           >
-            {themes.map((theme, i) => (
+            {Object.values(themes).map((theme, i) => (
               <li key={i}>
                 <button
                   data-theme={theme}

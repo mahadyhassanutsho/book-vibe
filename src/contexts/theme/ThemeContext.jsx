@@ -1,9 +1,9 @@
 import { createContext } from "react";
 
-import themes from "../../data/theme";
+import { defaultTheme } from "../../data/theme";
 
 const ThemeContext = createContext({
-  theme: themes[0],
+  theme: defaultTheme,
   setTheme: (theme) => {
     theme;
   },

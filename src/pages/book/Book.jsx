@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 import { useLoaderData, useParams } from "react-router";
 import {
   Star,
@@ -22,7 +23,7 @@ export default function Book() {
 
   const handleAddToReadlist = () => {
     if (onTheReadlist) {
-      alert(`${book.name} is already in the Readlist`);
+      toast.info(`${book.name} is already in the Readlist`);
     } else {
       addToReadlist(book.id);
     }
@@ -30,7 +31,7 @@ export default function Book() {
 
   const handleAddToWishlist = () => {
     if (onTheWishlist) {
-      alert(`${book.name} is already in the Wishlist`);
+      toast.info(`${book.name} is already on the Wishlist`);
     } else {
       addToWishlist(book.id);
     }
@@ -44,7 +45,7 @@ export default function Book() {
           <img
             src={book.image}
             alt={book.name}
-            className="max-h-[450px] object-contain"
+            className="max-h-[450px] object-contain rounded-xl"
           />
         </figure>
 
@@ -86,11 +87,11 @@ export default function Book() {
           <div className="flex gap-4 mt-4">
             <button className="btn btn-primary" onClick={handleAddToReadlist}>
               {onTheReadlist ? <BookOpenCheck /> : <BookOpen />}{" "}
-              <span>Read</span>
+              <span>{onTheReadlist ? "Read" : "Mark as Read"}</span>
             </button>
             <button className="btn btn-outline" onClick={handleAddToWishlist}>
               {onTheWishlist ? <BookmarkCheck /> : <BookmarkPlus />}{" "}
-              <span>Wishlist</span>
+              <span>{onTheReadlist ? "Wishlisted" : "Add to Wishlist"}</span>
             </button>
           </div>
         </div>

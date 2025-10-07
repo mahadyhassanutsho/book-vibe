@@ -1,11 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-import themes from "../../data/theme";
+import { defaultTheme } from "../../data/theme";
 import ThemeContext from "./ThemeContext";
-import { useEffect } from "react";
 
 export default function ThemeContextProvider({ children }) {
-  const [theme, setTheme] = useState(themes[0]);
+  const [theme, setTheme] = useState(defaultTheme);
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
